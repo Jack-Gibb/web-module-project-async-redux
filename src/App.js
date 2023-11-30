@@ -1,10 +1,12 @@
 import React from 'react';
+import DogImage from './components/DogImage';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      Async Redux Project
+      <h1>You're Welcome!!!</h1>
+      <DogImage />
     </div>
   );
 }
